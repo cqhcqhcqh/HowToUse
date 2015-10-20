@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="6dfc2b4e-f972-4627-b0ca-25c145cead5d" borderStyle="roundedRect" placeholder="orderToken" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uVH-Gf-yrt">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="orderToken" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uVH-Gf-yrt">
                                 <rect key="frame" x="25" y="28" width="181" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -49,7 +49,7 @@
                                     <action selector="goinSDK" destination="BYZ-38-t0r" eventType="touchUpInside" id="rX1-XQ-D5V"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20151020131753000874" borderStyle="roundedRect" placeholder="order" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jcy-oF-EPV">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="order" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jcy-oF-EPV">
                                 <rect key="frame" x="25" y="72" width="181" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
