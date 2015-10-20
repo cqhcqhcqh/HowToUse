@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		04125DC71BD62129002056A7 /* cnepay_developkit_bt_FMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DC61BD62129002056A7 /* cnepay_developkit_bt_FMK.framework */; };
 		04125DC91BD6212C002056A7 /* StateMachineFMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DC81BD6212C002056A7 /* StateMachineFMK.framework */; };
+		04125DCA1BD62149002056A7 /* StateMachineFMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DC81BD6212C002056A7 /* StateMachineFMK.framework */; };
+		04125DCB1BD62149002056A7 /* StateMachineFMK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DC81BD6212C002056A7 /* StateMachineFMK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04125DCC1BD6214B002056A7 /* cnepay_developkit_bt_FMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DC61BD62129002056A7 /* cnepay_developkit_bt_FMK.framework */; };
+		04125DCD1BD6214B002056A7 /* cnepay_developkit_bt_FMK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DC61BD62129002056A7 /* cnepay_developkit_bt_FMK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		049FF8561BD601A300685BC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FF8551BD601A300685BC3 /* main.m */; };
 		049FF8591BD601A300685BC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FF8581BD601A300685BC3 /* AppDelegate.m */; };
 		049FF85F1BD601A300685BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049FF85D1BD601A300685BC3 /* Main.storyboard */; };
@@ -37,6 +41,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				04125DCD1BD6214B002056A7 /* cnepay_developkit_bt_FMK.framework in Embed Frameworks */,
+				04125DCB1BD62149002056A7 /* StateMachineFMK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -69,6 +75,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04125DC71BD62129002056A7 /* cnepay_developkit_bt_FMK.framework in Frameworks */,
+				04125DCA1BD62149002056A7 /* StateMachineFMK.framework in Frameworks */,
+				04125DCC1BD6214B002056A7 /* cnepay_developkit_bt_FMK.framework in Frameworks */,
 				04125DC91BD6212C002056A7 /* StateMachineFMK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
