@@ -22,3 +22,4 @@ FOUNDATION_EXPORT const unsigned char cnepay_developkit_bt_FMKVersionString[];
 #import <cnepay_developkit_bt_FMK/CPMainNavController.h>
 #import <cnepay_developkit_bt_FMK/CPOrderProductTool.h>
 #import <cnepay_developkit_bt_FMK/MyNavigationViewController.h>
+#import <cnepay_developkit_bt_FMK/CPHttpTool.h>

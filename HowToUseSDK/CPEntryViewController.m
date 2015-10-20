@@ -51,6 +51,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [CPHttpTool cofigureUrlString:@"http://zftpay.21er.net:15080"];
     
 }
 

@@ -6,7 +6,7 @@
 	<dict>
 		<key>CPDealStateCell.nib</key>
 		<data>
-		u+NRnxj4sdqFuzHUqpeMezb9d64=
+		JzhYBH8n/Vw418UDDG0jR+SYnKc=
 		</data>
 		<key>Headers/CPContainerViewController.h</key>
 		<data>
@@ -15,6 +15,10 @@
 		<key>Headers/CPDealBaseInfo.h</key>
 		<data>
 		bUmWcE9ZCFPqQ4yUmZ3F6p3k/OM=
+		</data>
+		<key>Headers/CPHttpTool.h</key>
+		<data>
+		857mqd+i4Y7oNp1+eNaawKRoq+A=
 		</data>
 		<key>Headers/CPMainNavController.h</key>
 		<data>
@@ -30,7 +34,7 @@
 		</data>
 		<key>Headers/cnepay_developkit_bt_FMK.h</key>
 		<data>
-		Cuto4RNv+2Z5kLGSPYpygirpK68=
+		r7gMt3Az4NDATXRDmkxoCPZfKag=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -49,7 +53,7 @@
 	<dict>
 		<key>CPDealStateCell.nib</key>
 		<data>
-		u+NRnxj4sdqFuzHUqpeMezb9d64=
+		JzhYBH8n/Vw418UDDG0jR+SYnKc=
 		</data>
 		<key>Headers/CPContainerViewController.h</key>
 		<data>
@@ -58,6 +62,10 @@
 		<key>Headers/CPDealBaseInfo.h</key>
 		<data>
 		bUmWcE9ZCFPqQ4yUmZ3F6p3k/OM=
+		</data>
+		<key>Headers/CPHttpTool.h</key>
+		<data>
+		857mqd+i4Y7oNp1+eNaawKRoq+A=
 		</data>
 		<key>Headers/CPMainNavController.h</key>
 		<data>
@@ -73,7 +81,7 @@
 		</data>
 		<key>Headers/cnepay_developkit_bt_FMK.h</key>
 		<data>
-		Cuto4RNv+2Z5kLGSPYpygirpK68=
+		r7gMt3Az4NDATXRDmkxoCPZfKag=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
