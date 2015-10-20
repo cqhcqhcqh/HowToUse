@@ -1,0 +1,6 @@
+framework module StateMachineFMK {
+  umbrella header "StateMachineFMK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module cnepay_developkit_bt_FMK {
+  umbrella header "cnepay_developkit_bt_FMK.h"
+
+  export *
+  module * { export * }
+}
