@@ -78,7 +78,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lXNZjTFweIkeWPAGryzFUX18u4o=
+		4RMTJClg+T8rlo5QA4EGufCtI1E=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -87,10 +87,6 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		guN8pyq+soyr1SrZBrGYZKM4rJk=
-		</data>
-		<key>embedded.mobileprovision</key>
-		<data>
-		ZCxACh47PkieQIvjGDbCrGWLJfY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -174,10 +170,6 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		guN8pyq+soyr1SrZBrGYZKM4rJk=
-		</data>
-		<key>embedded.mobileprovision</key>
-		<data>
-		ZCxACh47PkieQIvjGDbCrGWLJfY=
 		</data>
 	</dict>
 	<key>rules</key>

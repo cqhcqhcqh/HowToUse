@@ -11,4 +11,9 @@
 @interface CPOrderProductTool : NSObject
 
 + (void) orderMakeWithMerchantCode:(NSString *)merchantcode Success:(void(^)(NSString* order ,NSString *orderToken))order failure:(void(^)(NSError* respError))failure;
+
++ (void) configureOrderUrlString:(NSString *)urlString;
+
++ (NSString *)getOrderUrl;
+
 @end

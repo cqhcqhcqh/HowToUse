@@ -31,6 +31,7 @@
     __block CPDealBaseInfo *dealBaseInfo = [[CPDealBaseInfo alloc] init];
     __weak typeof(self) weakself = self;
     self.baseInfo = dealBaseInfo;
+    [CPOrderProductTool configureOrderUrlString:@"http://zftapi.21er.net:15080"];
      [CPOrderProductTool orderMakeWithMerchantCode:self.mechantTF.text Success:^(NSString *order, NSString *orderToken) {
          weakself.orderTextField.text = order;
          weakself.orderTokenTF.text = orderToken;
@@ -52,7 +53,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [CPHttpTool cofigureUrlString:@"http://zftpay.21er.net:15080"];
-    
 }
 
 
