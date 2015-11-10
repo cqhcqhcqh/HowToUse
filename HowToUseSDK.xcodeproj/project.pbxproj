@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04125DDB1BD636E2002056A7 /* cnepay_developkit_bt_FMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DD91BD636E2002056A7 /* cnepay_developkit_bt_FMK.framework */; };
-		04125DDC1BD636E2002056A7 /* StateMachineFMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DDA1BD636E2002056A7 /* StateMachineFMK.framework */; };
-		04125DDD1BD63766002056A7 /* cnepay_developkit_bt_FMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DD91BD636E2002056A7 /* cnepay_developkit_bt_FMK.framework */; };
-		04125DDE1BD63766002056A7 /* cnepay_developkit_bt_FMK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DD91BD636E2002056A7 /* cnepay_developkit_bt_FMK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		04125DDF1BD63768002056A7 /* StateMachineFMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DDA1BD636E2002056A7 /* StateMachineFMK.framework */; };
-		04125DE01BD63768002056A7 /* StateMachineFMK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04125DDA1BD636E2002056A7 /* StateMachineFMK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04061C5E1BF212C400754E42 /* cnepay_developkit_bt_FMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04061C5C1BF212C400754E42 /* cnepay_developkit_bt_FMK.framework */; };
+		04061C5F1BF212C400754E42 /* StateMachineFMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04061C5D1BF212C400754E42 /* StateMachineFMK.framework */; };
 		049FF8561BD601A300685BC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FF8551BD601A300685BC3 /* main.m */; };
 		049FF8591BD601A300685BC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FF8581BD601A300685BC3 /* AppDelegate.m */; };
 		049FF85F1BD601A300685BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049FF85D1BD601A300685BC3 /* Main.storyboard */; };
@@ -41,8 +37,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				04125DDE1BD63766002056A7 /* cnepay_developkit_bt_FMK.framework in Embed Frameworks */,
-				04125DE01BD63768002056A7 /* StateMachineFMK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,8 +44,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		04125DD91BD636E2002056A7 /* cnepay_developkit_bt_FMK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = cnepay_developkit_bt_FMK.framework; sourceTree = "<group>"; };
-		04125DDA1BD636E2002056A7 /* StateMachineFMK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StateMachineFMK.framework; sourceTree = "<group>"; };
+		04061C5C1BF212C400754E42 /* cnepay_developkit_bt_FMK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = cnepay_developkit_bt_FMK.framework; sourceTree = "<group>"; };
+		04061C5D1BF212C400754E42 /* StateMachineFMK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StateMachineFMK.framework; sourceTree = "<group>"; };
 		049FF8501BD601A300685BC3 /* HowToUseSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToUseSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049FF8541BD601A300685BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049FF8551BD601A300685BC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,10 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04125DDB1BD636E2002056A7 /* cnepay_developkit_bt_FMK.framework in Frameworks */,
-				04125DDF1BD63768002056A7 /* StateMachineFMK.framework in Frameworks */,
-				04125DDD1BD63766002056A7 /* cnepay_developkit_bt_FMK.framework in Frameworks */,
-				04125DDC1BD636E2002056A7 /* StateMachineFMK.framework in Frameworks */,
+				04061C5F1BF212C400754E42 /* StateMachineFMK.framework in Frameworks */,
+				04061C5E1BF212C400754E42 /* cnepay_developkit_bt_FMK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +86,8 @@
 		04125DCE1BD62F4F002056A7 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				04125DD91BD636E2002056A7 /* cnepay_developkit_bt_FMK.framework */,
-				04125DDA1BD636E2002056A7 /* StateMachineFMK.framework */,
+				04061C5C1BF212C400754E42 /* cnepay_developkit_bt_FMK.framework */,
+				04061C5D1BF212C400754E42 /* StateMachineFMK.framework */,
 			);
 			name = Framework;
 			path = HowToUseSDK/Framework;
@@ -427,6 +419,7 @@
 					"/Users/cnepay/Documents/SDKJob/SDKDemo/build/SGTest-iphoneos",
 				);
 				INFOPLIST_FILE = HowToUseSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +437,7 @@
 					"/Users/cnepay/Documents/SDKJob/SDKDemo/build/SGTest-iphoneos",
 				);
 				INFOPLIST_FILE = HowToUseSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
