@@ -1,0 +1,6 @@
+framework module SSMposSDK {
+  umbrella header "SSMposSDK.h"
+
+  export *
+  module * { export * }
+}
