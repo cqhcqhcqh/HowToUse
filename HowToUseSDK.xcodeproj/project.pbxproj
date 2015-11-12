@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0440B3DA1BF47444006623D2 /* cnepay_developkit_bt_FMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0440B3D81BF47444006623D2 /* cnepay_developkit_bt_FMK.framework */; };
+		0440B3DB1BF47444006623D2 /* StateMachineFMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0440B3D91BF47444006623D2 /* StateMachineFMK.framework */; };
+		0440B3DD1BF47454006623D2 /* SSMposSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0440B3DC1BF47454006623D2 /* SSMposSDK.framework */; };
 		049FF8561BD601A300685BC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FF8551BD601A300685BC3 /* main.m */; };
 		049FF8591BD601A300685BC3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FF8581BD601A300685BC3 /* AppDelegate.m */; };
 		049FF85F1BD601A300685BC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049FF85D1BD601A300685BC3 /* Main.storyboard */; };
@@ -16,9 +19,6 @@
 		049FF87B1BD601B500685BC3 /* CPEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FF87A1BD601B500685BC3 /* CPEntryViewController.m */; };
 		049FF8971BD6060C00685BC3 /* deviceBar.plist in Resources */ = {isa = PBXBuildFile; fileRef = 049FF8951BD6060C00685BC3 /* deviceBar.plist */; };
 		049FF8981BD6060C00685BC3 /* SDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 049FF8961BD6060C00685BC3 /* SDKResources.bundle */; };
-		04CDAE211BF3231E0067C2D2 /* SSMposSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CDAE201BF3231E0067C2D2 /* SSMposSDK.framework */; };
-		04CDAE241BF3255D0067C2D2 /* cnepay_developkit_bt_FMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CDAE221BF3255D0067C2D2 /* cnepay_developkit_bt_FMK.framework */; };
-		04CDAE251BF3255D0067C2D2 /* StateMachineFMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04CDAE231BF3255D0067C2D2 /* StateMachineFMK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +45,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0440B3D81BF47444006623D2 /* cnepay_developkit_bt_FMK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = cnepay_developkit_bt_FMK.framework; sourceTree = "<group>"; };
+		0440B3D91BF47444006623D2 /* StateMachineFMK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StateMachineFMK.framework; sourceTree = "<group>"; };
+		0440B3DC1BF47454006623D2 /* SSMposSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SSMposSDK.framework; sourceTree = "<group>"; };
 		049FF8501BD601A300685BC3 /* HowToUseSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToUseSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049FF8541BD601A300685BC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		049FF8551BD601A300685BC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,9 +63,6 @@
 		049FF87A1BD601B500685BC3 /* CPEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPEntryViewController.m; sourceTree = "<group>"; };
 		049FF8951BD6060C00685BC3 /* deviceBar.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = deviceBar.plist; sourceTree = "<group>"; };
 		049FF8961BD6060C00685BC3 /* SDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SDKResources.bundle; sourceTree = "<group>"; };
-		04CDAE201BF3231E0067C2D2 /* SSMposSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SSMposSDK.framework; sourceTree = "<group>"; };
-		04CDAE221BF3255D0067C2D2 /* cnepay_developkit_bt_FMK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = cnepay_developkit_bt_FMK.framework; sourceTree = "<group>"; };
-		04CDAE231BF3255D0067C2D2 /* StateMachineFMK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StateMachineFMK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +70,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04CDAE241BF3255D0067C2D2 /* cnepay_developkit_bt_FMK.framework in Frameworks */,
-				04CDAE251BF3255D0067C2D2 /* StateMachineFMK.framework in Frameworks */,
-				04CDAE211BF3231E0067C2D2 /* SSMposSDK.framework in Frameworks */,
+				0440B3DD1BF47454006623D2 /* SSMposSDK.framework in Frameworks */,
+				0440B3DA1BF47444006623D2 /* cnepay_developkit_bt_FMK.framework in Frameworks */,
+				0440B3DB1BF47444006623D2 /* StateMachineFMK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,9 +89,9 @@
 		04125DCE1BD62F4F002056A7 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				04CDAE221BF3255D0067C2D2 /* cnepay_developkit_bt_FMK.framework */,
-				04CDAE231BF3255D0067C2D2 /* StateMachineFMK.framework */,
-				04CDAE201BF3231E0067C2D2 /* SSMposSDK.framework */,
+				0440B3DC1BF47454006623D2 /* SSMposSDK.framework */,
+				0440B3D81BF47444006623D2 /* cnepay_developkit_bt_FMK.framework */,
+				0440B3D91BF47444006623D2 /* StateMachineFMK.framework */,
 			);
 			name = Framework;
 			path = HowToUseSDK/Framework;
@@ -417,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HowToUseSDK/Framework",
@@ -438,6 +439,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/HowToUseSDK/Framework",

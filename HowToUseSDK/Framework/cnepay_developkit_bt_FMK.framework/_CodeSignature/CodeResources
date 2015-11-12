@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>CPDealStateCell.nib</key>
-		<data>
-		DtkN8gHsH51DDMBLTfVsQSxH7k0=
-		</data>
 		<key>Headers/CPContainerViewController.h</key>
 		<data>
 		++dwy+zRZ4fsO7MwfLbawD4+5KU=
@@ -47,10 +43,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>CPDealStateCell.nib</key>
-		<data>
-		DtkN8gHsH51DDMBLTfVsQSxH7k0=
-		</data>
 		<key>Headers/CPContainerViewController.h</key>
 		<data>
 		++dwy+zRZ4fsO7MwfLbawD4+5KU=

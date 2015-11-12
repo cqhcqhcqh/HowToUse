@@ -27,6 +27,8 @@ typedef NS_ENUM(NSInteger, WorkType) {
 
 @property (nonatomic,strong) CommandImpl* mCommandImpl;
 
+
++(MposController*) shareInstance;
 /**
  * 初始化
  * @param peripheralDelegate  外设代理
@@ -177,8 +179,6 @@ typedef NS_ENUM(NSInteger, WorkType) {
  *
  *
  */
-
-
 - (void)connectWithIdentifier:(NSString *)identifier;
 /**
  *  断开与制定蓝牙的连接
